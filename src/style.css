@@ -1,0 +1,76 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+ul,
+ol {
+  padding: 0;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+body {
+  height: 100vh;
+  width: auto;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: none;
+  font-family: Arial, Tahoma, Verdana, sans-serif;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+article > * + * {
+  margin-top: 1em;
+}
+
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
