@@ -23,3 +23,9 @@ export const HelloMassege = styled.div`
   justify-content: center;
   margin-top: 50vh;
 `;
+export const Container = styled.div`
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+`;

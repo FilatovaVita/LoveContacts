@@ -31,8 +31,7 @@ dd {
 
 
 body {
-  height: 100vh;
-  width: auto;
+
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   margin: 0;
@@ -44,6 +43,8 @@ body {
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+
 }
 
 
@@ -57,7 +58,6 @@ a {
 }
 
 img {
-  max-width: 100%;
   display: block;
 }
 

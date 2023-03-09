@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
-export const DelButton = styled.button`
-  display: inline-block;
+export const LogOutButton = styled.button`
+  display: flex;
   position: relative;
   color: #252537;
   width: 150px;
@@ -13,7 +13,7 @@ export const DelButton = styled.button`
   outline: none;
   border: none;
   cursor: pointer;
-  text-align: center;
+  align-items: center;
   letter-spacing: 0.05em;
 
   @media (max-width: 750px) {
@@ -67,9 +67,24 @@ export const DelButton = styled.button`
     background-color: #b8f2e6;
   }
 `;
-export const ListItem = styled.li`
+export const UserNavContainer = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  padding: 10px 16px;
+  gap: 10px;
+  > p {
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  @media (max-width: 750px) {
+    > p {
+      font-size: medium;
+    }
+  }
+  @media (max-width: 480px) {
+    > p {
+      font-size: small;
+    }
+  }
 `;

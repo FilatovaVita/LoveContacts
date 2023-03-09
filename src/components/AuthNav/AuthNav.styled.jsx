@@ -10,4 +10,14 @@ export const NavContainer = styled.div`
     font-size: x-large;
     font-weight: bolder;
   }
+  @media (max-width: 750px) {
+    > p {
+      font-size: medium;
+    }
+  }
+  @media (max-width: 480px) {
+    > p {
+      display: none;
+    }
+  }
 `;

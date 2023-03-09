@@ -1,7 +1,8 @@
 import styled from '@emotion/styled';
 
 export const ContactListStyled = styled.ul`
-  list-style: none;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  width: 500px;
+  min-height: 100vh;
 `;

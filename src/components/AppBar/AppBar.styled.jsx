@@ -15,6 +15,17 @@ export const Link = styled(NavLink)`
   color: black;
   font-weight: 600;
   font-size: x-large;
+
+  @media (max-width: 750px) {
+    font-size: medium;
+  }
+
+  @media (max-width: 480px) {
+    font-size: small;
+    > p {
+      display: none;
+    }
+  }
   &.active {
     color: white;
   }

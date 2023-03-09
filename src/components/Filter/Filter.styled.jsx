@@ -26,4 +26,8 @@ export const FilterInput = styled.input`
   outline: none;
   border: none;
   border-radius: 0px 5px 5px 0px;
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
 `;

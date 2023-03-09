@@ -1,19 +1,20 @@
 import { useDispatch } from 'react-redux';
 import { logOut } from 'redux/auth/operations';
 import { useAuth } from '../../hooks/useAuth';
-import { NavContainer } from '../AuthNav/AuthNav.styled';
-import { DelButton } from '../ContactItem/ContactItem.styled';
+import { BiLogOut } from 'react-icons/bi';
+import { LogOutButton, UserNavContainer } from './UserMenu.styled';
 
 export const UserMenu = () => {
   const dispatch = useDispatch();
   const { user } = useAuth();
 
   return (
-    <NavContainer>
+    <UserNavContainer>
       <p>Welcome, {user.name}</p>
-      <DelButton type="button" onClick={() => dispatch(logOut())}>
+      <LogOutButton type="button" onClick={() => dispatch(logOut())}>
+        <BiLogOut style={{ width: 50, height: 50 }} />
         Logout
-      </DelButton>
-    </NavContainer>
+      </LogOutButton>
+    </UserNavContainer>
   );
 };
