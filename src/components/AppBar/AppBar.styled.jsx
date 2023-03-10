@@ -34,3 +34,15 @@ export const Link = styled(NavLink)`
     background-color: #a8edea;
   }
 `;
+export const Box = styled.footer`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fed6e3;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: -70px;
+  &:hover {
+    box-shadow: 0 0 10px 0 #ffb8c6 inset, 0 0 10px 4px #ffb8c6;
+  }
+`;
