@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/LoveContacts/static/css/main.47e156bd.css",
-    "main.js": "/LoveContacts/static/js/main.3d912c57.js",
+    "main.js": "/LoveContacts/static/js/main.93539b35.js",
     "static/js/266.87a34d9e.chunk.js": "/LoveContacts/static/js/266.87a34d9e.chunk.js",
-    "static/js/139.52a6658d.chunk.js": "/LoveContacts/static/js/139.52a6658d.chunk.js",
-    "static/js/960.76a6a6f1.chunk.js": "/LoveContacts/static/js/960.76a6a6f1.chunk.js",
-    "static/js/963.70d33a64.chunk.js": "/LoveContacts/static/js/963.70d33a64.chunk.js",
+    "static/js/139.7facf03f.chunk.js": "/LoveContacts/static/js/139.7facf03f.chunk.js",
+    "static/js/960.dffb692b.chunk.js": "/LoveContacts/static/js/960.dffb692b.chunk.js",
+    "static/js/963.4b0db850.chunk.js": "/LoveContacts/static/js/963.4b0db850.chunk.js",
     "static/js/568.4a4c6306.chunk.js": "/LoveContacts/static/js/568.4a4c6306.chunk.js",
     "static/js/270.b3c382c1.chunk.js": "/LoveContacts/static/js/270.b3c382c1.chunk.js",
     "static/js/815.7c447fed.chunk.js": "/LoveContacts/static/js/815.7c447fed.chunk.js",
     "index.html": "/LoveContacts/index.html",
     "main.47e156bd.css.map": "/LoveContacts/static/css/main.47e156bd.css.map",
-    "main.3d912c57.js.map": "/LoveContacts/static/js/main.3d912c57.js.map",
+    "main.93539b35.js.map": "/LoveContacts/static/js/main.93539b35.js.map",
     "266.87a34d9e.chunk.js.map": "/LoveContacts/static/js/266.87a34d9e.chunk.js.map",
-    "139.52a6658d.chunk.js.map": "/LoveContacts/static/js/139.52a6658d.chunk.js.map",
-    "960.76a6a6f1.chunk.js.map": "/LoveContacts/static/js/960.76a6a6f1.chunk.js.map",
-    "963.70d33a64.chunk.js.map": "/LoveContacts/static/js/963.70d33a64.chunk.js.map",
+    "139.7facf03f.chunk.js.map": "/LoveContacts/static/js/139.7facf03f.chunk.js.map",
+    "960.dffb692b.chunk.js.map": "/LoveContacts/static/js/960.dffb692b.chunk.js.map",
+    "963.4b0db850.chunk.js.map": "/LoveContacts/static/js/963.4b0db850.chunk.js.map",
     "568.4a4c6306.chunk.js.map": "/LoveContacts/static/js/568.4a4c6306.chunk.js.map",
     "270.b3c382c1.chunk.js.map": "/LoveContacts/static/js/270.b3c382c1.chunk.js.map",
     "815.7c447fed.chunk.js.map": "/LoveContacts/static/js/815.7c447fed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47e156bd.css",
-    "static/js/main.3d912c57.js"
+    "static/js/main.93539b35.js"
   ]
 }
