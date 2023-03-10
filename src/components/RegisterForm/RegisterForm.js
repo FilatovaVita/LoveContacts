@@ -64,7 +64,11 @@ export const RegisterForm = () => {
           Already a user?
           <NavLink
             to="/login"
-            style={{ color: '#ffb8c6', textDecoration: 'underline' }}
+            style={{
+              color: '#ffb8c6',
+              textDecoration: 'underline',
+              marginLeft: '3px',
+            }}
           >
             Login
           </NavLink>
