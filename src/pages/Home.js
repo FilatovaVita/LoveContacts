@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <HelloMassege>
       <h1>
-        Welcome to LoveContact{' '}
+        Welcome to LoveContacts{' '}
         <RiUserHeartLine style={{ width: 50, height: 50 }} />
         Save your favorite contact here!
       </h1>
