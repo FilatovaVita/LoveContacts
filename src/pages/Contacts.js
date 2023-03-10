@@ -29,19 +29,18 @@ export default function Contacts() {
     <PhonebookContainer>
       <h1>Add contact here!</h1>
       <ContactForm />
-
       {contacts.length ? (
         <>
           <h2>Contacts</h2>
           {isLoading && !error && <Loader />}
           <Filter />
+          <ContactList />
         </>
       ) : (
         <DefoltMassege>
           You dont have contacts! Please, field this Contact Form!
         </DefoltMassege>
       )}
-      <ContactList />
     </PhonebookContainer>
   );
 }
