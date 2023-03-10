@@ -25,6 +25,7 @@ export const HelloMassege = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 30vh;
+  margin-bottom: 26vh;
 `;
 export const Container = styled.div`
   width: 100%;
