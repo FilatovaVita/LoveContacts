@@ -25,6 +25,9 @@ export const InputStyle = styled(Field)`
   outline: none;
   border: none;
   border-radius: 0px 5px 5px 0px;
+  &:focus {
+    box-shadow: 1px 1px 3px 3px #ffb8c6;
+  }
   @media (max-width: 480px) {
     width: 100%;
     height: auto;

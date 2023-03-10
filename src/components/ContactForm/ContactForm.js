@@ -5,6 +5,7 @@ import { FormStyled, InputStyle, AddButton } from './ContactForm.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { getContact } from '../../redux/contacts/selectors';
 import { addContact } from '../../redux/contacts/operations';
+import toast from 'react-hot-toast';
 
 const schema = yup.object().shape({
   name: yup
@@ -34,7 +35,7 @@ export const ContactForm = () => {
         contact => contact.name.toLowerCase() === name.toLowerCase()
       )
     ) {
-      alert(`${name} is already in contacts`);
+      toast.error(`${name} is already in contacts`);
       return;
     }
     dispatch(addContact(contact));

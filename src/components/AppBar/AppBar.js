@@ -13,7 +13,7 @@ export const AppBar = () => {
       <NavContainer>
         <Link to="/">
           <BiBookHeart style={{ width: 50, height: 50 }} />
-          <p>LovePhonebook</p>
+          <p>LoveContact</p>
         </Link>
         {isLoggedIn && <Link to="/contacts">Contacts</Link>}
       </NavContainer>

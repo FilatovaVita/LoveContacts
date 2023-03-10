@@ -8,6 +8,7 @@ export default function Register() {
       <Helmet>
         <title>Registration</title>
       </Helmet>
+      <h3>Create your account!😻</h3>
       <RegisterForm />
     </PhonebookContainer>
   );

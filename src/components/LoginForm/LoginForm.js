@@ -7,6 +7,7 @@ import {
   InputStyle,
 } from '../ContactForm/ContactForm.styled';
 import { logIn } from '../../redux/auth/operations';
+import { NavLink } from 'react-router-dom';
 
 const schema = yup.object().shape({
   password: yup.string().required('Please Enter your password'),
@@ -45,6 +46,15 @@ export const LoginForm = () => {
         </ErrorMessage>
 
         <AddButton type="submit">Log In</AddButton>
+        <p style={{ display: 'inline-block', textAlign: 'center' }}>
+          Need an account? Register now!
+          <NavLink
+            to="/register"
+            style={{ color: '#ffb8c6', textDecoration: 'underline' }}
+          >
+            Register
+          </NavLink>
+        </p>
       </FormStyled>
     </Formik>
   );

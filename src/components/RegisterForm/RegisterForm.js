@@ -7,6 +7,7 @@ import {
   FormStyled,
   InputStyle,
 } from '../ContactForm/ContactForm.styled';
+import { NavLink } from 'react-router-dom';
 
 const schema = yup.object().shape({
   name: yup
@@ -59,6 +60,15 @@ export const RegisterForm = () => {
         </ErrorMessage>
 
         <AddButton type="submit">Register</AddButton>
+        <p style={{ display: 'inline-block', textAlign: 'center' }}>
+          Already a user?
+          <NavLink
+            to="/login"
+            style={{ color: '#ffb8c6', textDecoration: 'underline' }}
+          >
+            Login
+          </NavLink>
+        </p>
       </FormStyled>
     </Formik>
   );
