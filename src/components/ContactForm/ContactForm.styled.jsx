@@ -2,22 +2,26 @@ import styled from '@emotion/styled';
 import { Field, Form } from 'formik';
 
 export const FormStyled = styled(Form)`
-  width: auto;
-  height: auto;
-  border-radius: 5px;
+  width: 50vh;
+  height: 40vh;
+  border-radius: 10px;
   margin: 2% auto;
   box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
   padding: 2%;
   background-image: linear-gradient(-225deg, #e3fdf5 50%, #ffe6fa 50%);
   display: flex;
   flex-direction: column;
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
   > label {
     margin-top: 2%;
   }
 `;
 export const InputStyle = styled(Field)`
-  width: 350px;
-  height: 40px;
+  width: 450px;
+  height: 50px;
   margin-top: 2%;
   padding: 10px;
   font-size: 14px;
