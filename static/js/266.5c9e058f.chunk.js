@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[266],{1266:function(e,t,r){r.r(t),r.d(t,{default:function(){return o}});var n=r(4169),a=r(7425),c=r(184);function o(){return(0,c.jsx)(n.CK,{children:(0,c.jsxs)("h1",{children:["Welcome to LoveContact manager ",(0,c.jsx)(a.hJk,{}),"Save your favorite contact here!"]})})}}}]);
-//# sourceMappingURL=266.5c9e058f.chunk.js.map
