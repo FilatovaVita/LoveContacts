@@ -5,6 +5,7 @@ const initialState = {
   user: { name: null, email: null, password: null },
   token: null,
   isLoggedIn: false,
+  error: null,
 };
 
 const authSlice = createSlice({
@@ -38,6 +39,9 @@ const authSlice = createSlice({
       })
       .addCase(refreshUser.rejected, state => {
         state.isRefreshing = false;
+      })
+      .addCase(register.rejected, (state, action) => {
+        state.error = action.payload;
       });
   },
 });

@@ -26,6 +26,24 @@ export const HelloMassege = styled.div`
   justify-content: center;
   margin-top: 30vh;
   margin-bottom: 26vh;
+  > div {
+    margin-top: 30px;
+  }
+  @media (max-width: 480px) {
+    margin-top: 10vh;
+    margin-bottom: 26vh;
+    > h1 {
+      font-size: 23px;
+    }
+
+    > div {
+      width: 300px;
+      margin-top: 100px;
+      > h2 {
+        font-size: small;
+      }
+    }
+  }
 `;
 export const Container = styled.div`
   width: 100%;
@@ -50,6 +68,10 @@ export const HeroLink = styled(NavLink)`
   cursor: pointer;
   margin: 7% auto;
   letter-spacing: 0.05em;
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
   &:before,
   &:after {
     content: '';
